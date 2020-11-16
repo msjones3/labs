@@ -14,19 +14,17 @@ Let's start the validation by making sure every form has been filled out.
 {% next %
 
 # to do
-Write a function called isempty(input)
-This function takes a parameter called 'input'
-It should return True if the field is blank
-It should return False if the field has been filled out. 
+Write a function called isEmpty(input), which takes a parameter called 'input'.
+It should return True if the field is blank and will return False if the field has been filled out. 
 
 ## example usage
 username = ''
 password = 'mypassword'
 email = '     '
 
-isempty(username) evaluates to True
-isempty(password) evaluates to False
-isempty(email) evaluates to True
+- isempty(username) evaluates to True
+- isempty(password) evaluates to False
+- isempty(email) evaluates to True
 
 Make sure to test all possible inputs
 
