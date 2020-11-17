@@ -34,6 +34,8 @@ Validate the number so that it must be between 1 and 10.
 
 # to do
 Write a function called numberInvalid(input) that takes in a number and returns true if the number is not between 1 and 10. 
+- it must be an integer
+- it must be between 1 and 10
 
 {% spoiler "Hint" %} You're really not going to like it. {% endspoiler %}
 
