@@ -46,8 +46,6 @@ Write a function called numberValid(input) that takes in a number and returns tr
 - numberValid(0) returns False
 - numberValid(-3) returns False
 
-{% spoiler "Hint" %} To check to see if the number is an integer, consider using a 'try' {% endspoiler %}
-
 {% next %}
 # Check to see if the username and password are correct
 Write a function called credentialsValid() to check to see if a username and password are correct  
