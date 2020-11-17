@@ -69,7 +69,7 @@ This will run all the tests you wrote previously on your form data and provide u
 We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Look in the file for the dictionary.   
 ## how to access values from a dictionary
 run the following print statement to see how we can access values from the dictionary:  
-`print(form['username'])`  
+`print(myForm['username'])`  
 We can also use this dictionary value as an input in a function.  
 For example, let's run our isEmpty() function on the form data:  
 `print(isEmpty(myForm['username'])`
@@ -99,6 +99,9 @@ Loop through the errors list by using a for loop
 Update the evaluateErrors() code so that it checks to see if the credentials are valid.  
 If they are, print 'login successful' and if they are not, add the error 'credentials invalid' to the error messages displayed
 
+## save
+I'm  not sure if this sandbox will exist forever, so you may want to copy this code to a document and save it in a folder called 'code snippets' or something like that  
+Down the track sometime, you may find that the code you have just written might come in handy!!
 
 {% spoiler "Solution" %} Just kidding - I'm not giving you the solution. BUT... here's a cool video!
 {% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
