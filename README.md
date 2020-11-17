@@ -13,7 +13,7 @@ Let's start the validation by making sure every form has been filled out.
 
 {% next %}
 
-# to do
+# Check to see if fields are empty
 Write a function called isEmpty(input), which takes a parameter called 'input'.
 It should return True if the field is blank and will return False if the field has been filled out. 
 
@@ -32,7 +32,7 @@ Make sure to test all possible inputs
 
 Validate the number so that it must be between 1 and 10. 
 
-# to do
+# Check to see if number invalid
 Write a function called numberInvalid(input) that takes in a number and returns true if the number is not between 1 and 10. 
 - it must be an integer
 - it must be between 1 and 10
