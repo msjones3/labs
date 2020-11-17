@@ -2,3 +2,4 @@ lab50: true
 lab50:
   files:
     - !include validate.py
+    - !include checkErrors.py
