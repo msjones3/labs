@@ -33,9 +33,14 @@ Make sure to test all possible inputs
 Validate the number so that it must be between 1 and 10. 
 
 # Check to see if number invalid
-Write a function called numberInvalid(input) that takes in a number and returns true if the number is not between 1 and 10. 
-- it must be an integer
-- it must be between 1 and 10
+Write a function called numberValid(input) that takes in a number and returns true if the number is an integer between 1 and 10. 
+
+## example usage
+- numberValid(20) returns False
+- numberValid('a') returns False
+- numberValid(10) returns True
+- numberValid(0) returns False
+- numberValid(-3) returns False
 
 {% spoiler "Hint" %} You're really not going to like it. {% endspoiler %}
 
