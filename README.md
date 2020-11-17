@@ -72,7 +72,7 @@ run the following print statement to see how we can access values from the dicti
 `print(form['username'])`  
 We can also use this dictionary value as an input in a function.  
 For example, let's run our isEmpty() function on the form data:  
-`print(isEmpty(form['username'])`
+`print(isEmpty(myForm['username'])`
 
 
 {% next %}
