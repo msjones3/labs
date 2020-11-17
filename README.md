@@ -11,7 +11,7 @@ We have created a form that is going to return the following fields:
 
 Let's start the validation by making sure every form has been filled out. 
 
-{% next %
+{% next %}
 
 # to do
 Write a function called isEmpty(input), which takes a parameter called 'input'.
@@ -30,12 +30,10 @@ Make sure to test all possible inputs
 
 {% next %}
 
+Validate the number so that it must be between 1 and 10. 
 
-
-
-{% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
-
-{% endspoiler %}
+# to do
+Write a function called numberInvalid(input) that takes in a number and returns true if the number is not between 1 and 10. 
 
 {% spoiler "Hint" %} You're really not going to like it. {% endspoiler %}
 
