@@ -80,20 +80,26 @@ This is how you call the function:
 # Check entire form for errors
 Copy this code. 
   
-`def evaluateErrors(form):
-  errors = []
-  for item in form:
-    if isEmpty(form[item]):
-      errors.append(f'{item} cannot be blank')
-  if not numberValid(form['number']):
-    errors.append('number must be between 1 and 10. If you would like to purchase more tickets, please ring us.')
-  return errors`
+`def evaluateErrors(form):`
+  `errors = []`
+  `for item in form:`
+    `if isEmpty(form[item]):`
+      `errors.append(f'{item} cannot be blank')`
+  `if not numberValid(form['number']):`
+    `errors.append('number must be between 1 and 10. If you would like to purchase more tickets, please ring us.')`
+  `return errors`
   
 {% next %}
 Study the code you just entered for understanding.  
 run the code as is `print(evaluateErrors(form))`, then try changing the values of the form to see how the output changes. 
+{% next %}
 
-{% spoiler "Solution" %} Just kidding - I'm not giving you the solution. BUT... you've been Rick Rolled
+# Add the code to check credentials
+Update the evaluateErrors() code so that it checks to see if the credentials are valid.  
+If they are, print 'login successful' and if they are not, add the error 'credentials invalid' to the error messages displayed
+
+
+{% spoiler "Solution" %} Just kidding - I'm not giving you the solution. BUT... here's a cool video!
 {% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
 {% endspoiler %}
 
