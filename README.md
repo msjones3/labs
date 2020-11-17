@@ -50,7 +50,7 @@ Write a function called numberValid(input) that takes in a number and returns tr
 
 {% next %}
 # Check to see if the username and password are correct
-Write a function called credentialsValid() to check to see if a username and password are correct \n
+Write a function called credentialsValid() to check to see if a username and password are correct  
 Let's assume that the correct username is 'admin' and the correct password is 'secret'
 ### requirements
 - takes in 2 parameters: username and password
@@ -63,35 +63,25 @@ Let's assume that the correct username is 'admin' and the correct password is 's
 
 {% next %}
 
-# Run all Tests and show error messages
-We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Place the following dictionary in the code:  
-`form = {'username': '', 'password':'wrong', 'number: 20, 'email':''}`
-{% next %}
-## check the form to see if any values are blank
-Let's use the code we wrote called isEmpty().\n
-- Call the function with the value of the key 'username' as the input.
-- if the result is False, print('username cannot be blank')
-{% spoiler "hint" %}
-This is how you call the function:  
-`isEmpty(form['username'])`
-{% endspoiler %}
+# Show Error Messages
+The second file in your file manager is one called checkErrors.py  
+This will run all the tests you wrote previously on your form data and provide useful feedback to the user on how they can improve their code.  
+We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Look in the file for the dictionary.   
+## how to access values from a dictionary
+run the following print statement to see how we can access values from the dictionary:  
+`print(form['username'])`  
+We can also use this dictionary value as an input in a function.  
+For example, let's run our isEmpty() function on the form data:  
+`print(isEmpty(form['username'])`
+
 
 {% next %}
 # Check entire form for errors
-Copy this code. 
-  
-`def evaluateErrors(form):`
-  `errors = []`
-  `for item in form:`
-    `if isEmpty(form[item]):`
-      `errors.append(f'{item} cannot be blank')`
-  `if not numberValid(form['number']):`
-    `errors.append('number must be between 1 and 10. If you would like to purchase more tickets, please ring us.')`
-  `return errors`
-  
-{% next %}
-Study the code you just entered for understanding.  
-run the code as is `print(evaluateErrors(form))`, then try changing the values of the form to see how the output changes. 
+Look closely at the function called evaluateErrors()  
+This will provide some feedback to the user.  
+Run the code as is:  
+`print(evaluateErrors(form))`  
+then try changing the values of the form to see how the output changes. 
 {% next %}
 
 # Add the code to check credentials
