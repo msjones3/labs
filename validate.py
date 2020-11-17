@@ -9,11 +9,3 @@ def credentialsValid(username, password):
 def numberValid(number):
   # return true if number is an integer between 1 and 10
   return True
-
-username = ''
-password = 'secret'
-email = '     '
-number = 20
-
-print(isEmpty(username))
-
