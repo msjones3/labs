@@ -65,7 +65,7 @@ Let's assume that the correct username is 'admin' and the correct password is 's
 
 # Run all Tests and show error messages
 We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Place the following dictionary in the code:  
-form = {'username': '', 'password':'wrong', 'number: 20, 'email':''}
+`form = {'username': '', 'password':'wrong', 'number: 20, 'email':''}`
 {% next %}
 ## check the form to see if any values are blank
 Let's use the code we wrote called isEmpty().\n
@@ -73,21 +73,21 @@ Let's use the code we wrote called isEmpty().\n
 - if the result is False, print('username cannot be blank')
 {% spoiler "hint" %}
 This is how you call the function:  
-isEmpty(form['username'])
+`isEmpty(form['username'])`
 {% endspoiler %}
 
 {% next %}
 # Check entire form for errors
 Copy this code. 
   
-def evaluateErrors(form):
+`def evaluateErrors(form):
   errors = []
   for item in form:
     if isEmpty(form[item]):
       errors.append(f'{item} cannot be blank')
   if not numberValid(form['number']):
     errors.append('number must be between 1 and 10. If you would like to purchase more tickets, please ring us.')
-  return errors
+  return errors`
   
 {% next %}
 Study the code you just entered for understanding.  
