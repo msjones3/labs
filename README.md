@@ -42,7 +42,7 @@ Write a function called numberValid(input) that takes in a number and returns tr
 - numberValid(0) returns False
 - numberValid(-3) returns False
 
-{% spoiler "Hint" %} You're really not going to like it. {% endspoiler %}
+{% spoiler "Hint" %} To check to see if the number is an integer, consider using a 'try' {% endspoiler %}
 
 {% spoiler "Solution" %} Forty-two. {% endspoiler %}
 
