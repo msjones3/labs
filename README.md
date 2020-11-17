@@ -43,6 +43,8 @@ Write a function called numberValid(input) that takes in a number and returns tr
 - numberValid(-3) returns False
 
 {% spoiler "Hint" %} To check to see if the number is an integer, consider using a 'try' {% endspoiler %}
+# Run all Tests and show error messages
+Write a function called checkErrors(form) that will take in a dictionary  
 
 {% spoiler "Solution" %} Forty-two. {% endspoiler %}
 
