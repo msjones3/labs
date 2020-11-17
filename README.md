@@ -46,7 +46,7 @@ Write a function called numberValid(input) that takes in a number and returns tr
 # Run all Tests and show error messages
 Write a function called checkErrors(form) that will take in a dictionary  
 
-{% spoiler "Solution" %} Just kidding - no solution.... but you've been Rick Rolled
+{% spoiler "Solution" %} Just kidding - I'm not giving you the solution. BUT... you've been Rick Rolled
 {% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
 {% endspoiler %}
 
