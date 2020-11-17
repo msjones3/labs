@@ -90,9 +90,9 @@ Instead of printing an ugly list, loop through the errors and print individually
 {% spoiler "Hint" %}
 The errors are saved in a variable called 'errors'  
 Loop through the errors list by using a for loop  
-`for error in errors:`
-`   print(error)`
-{% endspoiler %}
+`for error in errors:`  
+`   print(error)`  
+{% endspoiler %}  
 {% next %}
 
 # Add the code to check credentials
