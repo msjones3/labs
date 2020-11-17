@@ -80,8 +80,19 @@ For example, let's run our isEmpty() function on the form data:
 Look closely at the function called evaluateErrors()  
 This will provide some feedback to the user.  
 Run the code as is:  
-`print(evaluateErrors(form))`  
+`print(evaluateErrors(myForm))`  
 then try changing the values of the form to see how the output changes. 
+{% next %}
+
+# print each error on one line
+Instead of printing an ugly list, loop through the errors and print individually.  
+
+{% spoiler "Hint" %}
+The errors are saved in a variable called 'errors'  
+Loop through the errors list by using a for loop  
+`for error in errors:`
+`   print(error)`
+{% endspoiler %}
 {% next %}
 
 # Add the code to check credentials
