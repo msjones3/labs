@@ -11,9 +11,9 @@ Let's assume we need to collect the following data:
 
 {% next %}
 
-Let's assume that the user is going to input their username. \n
-We need to first make sure they haven't left this form blank. \n
-You must write the code for the function isEmpty(). \n
+Let's assume that the user is going to input their username.  
+We need to first make sure they haven't left this form blank.  
+You must write the code for the function isEmpty().  
 This function should take in a paramaeter called 'input' and will return True if the input is blank, and False if the input isn't blank. 
 
 ### requirements
@@ -27,7 +27,7 @@ This function should take in a paramaeter called 'input' and will return True if
 - isEmpty('     ') evaluates to True
 
 Make sure to test all possible inputs, e.g.
-```print(isEmpty('myusername'))```
+- print(isEmpty('myusername'))
 
 {% next %}
 
@@ -64,22 +64,22 @@ Let's assume that the correct username is 'admin' and the correct password is 's
 {% next %}
 
 # Run all Tests and show error messages
-We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Place the following dictionary in the code:
-```form = {'username': '', 'password':'wrong', 'number: 20, 'email':''}```
+We don't have a form at the moment. However, we will simulate a form by creating a dictionary to store our data. Place the following dictionary in the code:  
+form = {'username': '', 'password':'wrong', 'number: 20, 'email':''}
 {% next %}
 ## check the form to see if any values are blank
 Let's use the code we wrote called isEmpty().\n
 - Call the function with the value of the key 'username' as the input.
 - if the result is False, print('username cannot be blank')
 {% spoiler "hint" %}
-This is how you call the function
-``` isEmpty(form['username'])```
+This is how you call the function:  
+isEmpty(form['username'])
 {% endspoiler %}
 
 {% next %}
 # Check entire form for errors
 Copy this code. 
-``` 
+  
 def evaluateErrors(form):
   errors = []
   for item in form:
@@ -88,11 +88,10 @@ def evaluateErrors(form):
   if not numberValid(form['number']):
     errors.append('number must be between 1 and 10. If you would like to purchase more tickets, please ring us.')
   return errors
-  ```
   
 {% next %}
 Study the code you just entered for understanding.  
-run the code as is ```print(evaluateErrors(form))```, then try changing the values of the form to see how the output changes. 
+run the code as is `print(evaluateErrors(form))`, then try changing the values of the form to see how the output changes. 
 
 {% spoiler "Solution" %} Just kidding - I'm not giving you the solution. BUT... you've been Rick Rolled
 {% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
