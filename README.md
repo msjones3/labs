@@ -10,7 +10,7 @@ Let's assume we need to collect the following data:
 - email
 
 {% next %}
-
+# write isEmpty() function
 Let's assume that the user is going to input their username.  
 We need to first make sure they haven't left this form blank.  
 You must write the code for the function isEmpty().  
