@@ -14,10 +14,10 @@ Let's assume we need to collect the following data:
 Let's assume that the user is going to input their username.  
 We need to first make sure they haven't left this form blank.  
 You must write the code for the function isEmpty().  
-This function should take in a paramaeter called 'input' and will return True if the input is blank, and False if the input isn't blank. 
+This function should take in a parameter called 'input' and will return True if the input is blank, and False if the input isn't blank. 
 
 ### requirements
-- returns True if blank
+- returns True if user has not entered anything
 - will work on both strings and numbers
 
 ### example usage
