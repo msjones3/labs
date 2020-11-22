@@ -84,6 +84,8 @@ then try changing the values of the form to see how the output changes.
 
 # print each error on one line
 Instead of printing an ugly list, loop through the errors and print individually.  
+I have set a variable called `errors` to the output of the evluateErrors function for myForm. 
+Write a 'for loop' that prints each error on one line. 
 
 {% spoiler "Hint" %}
 The errors are saved in a variable called 'errors'  
@@ -96,6 +98,7 @@ Loop through the errors list by using a for loop
 # Add the code to check credentials
 Update the evaluateErrors() code so that it checks to see if the credentials are valid.  
 If they are, print 'login successful' and if they are not, add the error 'credentials invalid' to the error messages displayed
+{% next %}
 
 ## save
 I'm  not sure if this sandbox will exist forever, so you may want to copy this code to a document and save it in a folder called 'code snippets' or something like that  
