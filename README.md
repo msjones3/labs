@@ -67,7 +67,7 @@ We’ll start with the Draw section.
 We don’t have any characters yet, but we can fill the screen with a solid color. To do this, we need to talk about how computers handle color.
 
 Computer screens are made up of pixels, and these pixels have 3 parts to them: red, green, and blue. How much each part is lit up determines what color that pixel is, like this:  
-!(https://github.com/msjones3/labs/blob/1-pygame-start/colours.png)
+!(http://kidscancode.org/blog/img/rgb_color_explain.png)
 
 {% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
 
