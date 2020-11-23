@@ -34,18 +34,18 @@ At the top of our program, we’re going to import the libraries we need and set
 `import pygame`
 `import random`
 
-`WIDTH = 360  # width of our game window`
-`HEIGHT = 480 # height of our game window`
-`FPS = 30 # frames per second `
+`WIDTH = 360  # width of our game window`  
+`HEIGHT = 480 # height of our game window`  
+`FPS = 30 # frames per second `  
 {% next %}
 Next we need to open the game window:  
 
-`# initialize pygame and create window`
-`pygame.init()`
-`pygame.mixer.init()  # for sound`
-`screen = pygame.display.set_mode((WIDTH, HEIGHT))`
-`pygame.display.set_caption("My Game")`
-`clock = pygame.time.Clock()`
+`# initialize pygame and create window`  
+`pygame.init()`  
+`pygame.mixer.init()  # for sound`  
+`screen = pygame.display.set_mode((WIDTH, HEIGHT))`  
+`pygame.display.set_caption("My Game")`  
+`clock = pygame.time.Clock()`  
 
 {% next %}
 `pygame.init()` is the command to start up pygame and “initialize” it (which is a fancy word for start). screen will refer to our game screen, and we create it at the size we set in our configuration constants. Finally, we create a clock so that we will be able to make sure our game runs at the FPS we want.
@@ -53,12 +53,12 @@ Next we need to open the game window:
 {% next %}
 Now it’s time to make the game loop:
 
-`# Game Loop`
-`running = True`
-`while running:`
-`    # Process input (events)`
-`    # Update`
-`    # Render (draw)`
+`# Game Loop`  
+`running = True`  
+`while running:`  
+`    # Process input (events)`  
+`    # Update`  
+`    # Render (draw)`  
 {% next %}
 Here is our game loop, which is a `while` loop controlled by the variable `running`. If we ever want the game to end, we just have to set `running` to `False` and the loop will end. Now we can fill in each of the sections with some basic code.
 {% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
