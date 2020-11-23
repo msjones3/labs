@@ -1,7 +1,36 @@
-# hello world
-testing to see if I can get the cs50 lab to work!
+# PyGame Start Here!
+## What is Pygame?
+Pygame is a “game library” - a set of tools to help programmers making games. Some of these things are:  
+
+- Graphics and animation
+- Sound (including music)
+- Control (keyboard, mouse, gamepad, etc.)
+{% next %}
+## Game Loop
+At the heart of every game is a loop, which we call the “Game Loop”. This loop is constantly running, over and over again, doing all the things that are needed to make the game work. Each time the game goes through this loop is called a frame.  
+
+Each frame, many different things may happen, but they can be organized into three different categories:
+
+1. Process Input (or Events)
+This means anything from outside your game that you want to pay attention to - anything that you need the game to respond to. These may be keys being pressed on the keyboard, the mouse being clicked, etc.
+
+2. Update Game
+This means changing anything that needs to change on this frame. If a character is up in the air, gravity needs to pull it down. If two objects run into each other, they need to explode.
+
+3. Render (or Draw)
+In this step, we draw everything on the screen. Backgrounds, characters, menus, or anything else that the player needs to see must be drawn on the screen in its correct, updated location.
+{% next %}
+
+## Clock
+One other important aspect of the loop is controlling how fast the whole loop runs. You may have heard the term FPS, which stands for Frames Per Second. This means how many times per second should this loop happen. This is important because you don’t want your game to run too fast or too slow. You also don’t want it to run at a different speed on different computers - if your character should take 10 seconds to run across the screen, that should be true no matter what computer it’s happening on.
+
 
 {% next %}
+## Building a Pygame Template
+Now that we know what pieces we need to make the game work, we can start writing some code. To begin with, we’re going to make a simple pygame program that does nothing but open a window and run a game loop. This will be a great starting point for any pygame project you want to make.
+{% next %}
+At the top of our program, we’re going to import the libraries we need and set a few variables for our game options:
+
 
 {% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
 
