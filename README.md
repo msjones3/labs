@@ -29,8 +29,36 @@ One other important aspect of the loop is controlling how fast the whole loop ru
 ## Building a Pygame Template
 Now that we know what pieces we need to make the game work, we can start writing some code. To begin with, we’re going to make a simple pygame program that does nothing but open a window and run a game loop. This will be a great starting point for any pygame project you want to make.
 {% next %}
-At the top of our program, we’re going to import the libraries we need and set a few variables for our game options:
+At the top of our program, we’re going to import the libraries we need and set a few variables for our game options:  
+`# Pygame template - skeleton for a new pygame project
+import pygame
+import random
 
+WIDTH = 360  # width of our game window
+HEIGHT = 480 # height of our game window
+FPS = 30 # frames per second `
+{% next %}
+Next we need to open the game window:  
+
+`# initialize pygame and create window
+pygame.init()
+pygame.mixer.init()  # for sound
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("My Game")
+clock = pygame.time.Clock()`
+
+{% next %}
+`pygame.init()` is the command to start up pygame and “initialize” it (which is a fancy word for start). screen will refer to our game screen, and we create it at the size we set in our configuration constants. Finally, we create a clock so that we will be able to make sure our game runs at the FPS we want.
+
+{% next %}
+Now it’s time to make the game loop:
+
+`# Game Loop
+running = True
+while running:
+    # Process input (events)
+    # Update
+    # Render (draw)`
 
 {% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
 
