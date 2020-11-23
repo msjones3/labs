@@ -56,11 +56,17 @@ Now it’s time to make the game loop:
 `# Game Loop`  
 `running = True`  
 `while running:`  
-`    # Process input (events)`  
-`    # Update`  
-`    # Render (draw)`  
+    `# Process input (events)`  
+    `# Update`  
+    `# Render (draw)`  
 {% next %}
 Here is our game loop, which is a `while` loop controlled by the variable `running`. If we ever want the game to end, we just have to set `running` to `False` and the loop will end. Now we can fill in each of the sections with some basic code.
+
+## Render / Draw Section
+We’ll start with the Draw section.  
+We don’t have any characters yet, but we can fill the screen with a solid color. To do this, we need to talk about how computers handle color.
+
+Computer screens are made up of pixels, and these pixels have 3 parts to them: red, green, and blue. How much each part is lit up determines what color that pixel is, like this:
 {% spoiler %} The Answer to the Great Question... Of Life, the Universe and Everything... Is...
 
 {% endspoiler %}
